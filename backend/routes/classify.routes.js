@@ -1,4 +1,3 @@
-// routes/classify.routes.js
 import express from "express";
 import { ChatGroq } from "@langchain/groq";
 import { PromptTemplate } from "@langchain/core/prompts";
@@ -11,7 +10,6 @@ dotenv.config();
 
 const router = express.Router();
 
-// Define structured output schema
 const classificationSchema = z.object({
   hts_code: z.string().describe("The selected HTS code"),
   hts_code_description: z.string().describe("Full description of the selected code"),
