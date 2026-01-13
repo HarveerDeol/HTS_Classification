@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": false,
+                    "requestCert": false
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "database-hts.c180ueuwekb7.us-east-2.rds.amazonaws.com",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "AWS",
+            "database": "htsdb",
+            "username": "harveer"
+        }
+    ]
+}
